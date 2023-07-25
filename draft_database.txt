@@ -1,0 +1,26 @@
+CREATE TABLE member (
+    id varchar(9) PRIMARY KEY not null,
+    name varchar(30) NOT null,
+    email varchar(30) NOT null,
+    phone varchar(11) NOT null,
+    bldgrp varchar(3) NOT null,
+    location varchar(255) NOT null,
+    password varchar(30) Not null
+    
+);
+
+CREATE TABLE admin (
+    id varchar(9) PRIMARY KEY not null,
+    password varchar(30) NOT null
+    
+    
+);
+
+CREATE TABLE events(
+    event_id int AUTO_INCREMENT PRIMARY KEY,
+    dates datetime default now(),
+    event_name varchar(30) not null,
+    description varchar(255) NOT null,
+    semester_id varchar(10) not null
+    
+    )

@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .image {
+    height: 40%;
+    width: 100%;
+    background-image: "/images/admin_home_top.png";
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px; /* Add a margin-top value to create some space */
+  }
+  
+  .col {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .col:first-child {
+    flex: 0 0 40%;
+    max-width: 40%;
+    
+  }
+
+
+  .leftside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+
+  .col:last-child ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 700px;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  li a.active {
+    background-color: #161743;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: red;
+    color: white;
+  }
+
+  .col:last-child {
+    height: 600px;
+  }
+
+  #info {
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    outline: none;
+    width: 100%;
+  }
+  
+  #info td, #info th {
+    /* border: 1px solid #ddd; */
+    padding: 8px;
+    text-align: left;
+  }
+  
+  
+
+  .edit-button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  .pass-button{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  

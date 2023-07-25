@@ -1,0 +1,157 @@
+body {
+    position: relative;
+    background: #FFFFFF;
+  }
+
+  .header-text {
+    position: absolute;
+    width: 700px;
+    height: 35px;
+    left: 25%;
+    top: 55%;
+    font-family: 'Oswald', sans-serif;
+    font-style: bold;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 53px;
+    color: #161743;
+  }
+  
+  .main-box {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    border: 1px solid #161743;
+    box-sizing: border-box;
+    left: 29%;
+    right: 493px;
+    top: 200px;
+    bottom: 351px;
+  }
+  
+  .login-text {
+    position: absolute;
+    width: 86px;
+    height: 41px;
+    left: 160px;
+    top: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    color: #000000;
+  }
+
+  .inner-box1 {
+    position: absolute;
+    width: 376px;
+    height: 35px;
+    left: 12px;
+    right: 12px;
+    top: 90px;
+    background: #FFFFFF;
+    
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .inner-box1 input[type="text"] {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color: transparent;
+  }
+  
+  .inner-box2 {
+    position: absolute;
+    width: 376px;
+    height: 35px;
+    left: 12px;
+    right: 12px;
+    top: 145px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .inner-box2 input[type="password"] {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color: transparent;
+  }
+  
+  .login-button {
+    position: absolute;
+    width: 400px;
+    height: 32px;
+    left: 0%;
+    right: 12px;
+    top: 210px;
+    background: #161743;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    cursor: pointer;
+  }
+
+  .forget-password {
+    position: absolute;
+    width: 200px;
+    height: 22px;
+    left: 40%;
+    top: 450px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    color: #F91A1A;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+ 
+
+/* Style for desktop screens */
+@media screen and (min-width: 768px) {
+  body {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+}
+
+/* Style for tablet screens */
+@media screen and (max-width: 767px) {
+  body {
+    max-width: 50%;
+    margin: 0 auto;
+  }
+}
+
+/* Style for mobile screens */
+@media screen and (max-width: 375px) {
+  body {
+    max-width: 50%;
+    margin: 0 auto;
+  }
+
+  
+}

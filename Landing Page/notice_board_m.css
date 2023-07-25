@@ -1,0 +1,85 @@
+.full-box{
+    width: 100%;
+}
+.notice-box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.recent-notice{
+    position: relative;
+    padding-left: 0;
+    width: 60%;
+    left: 0;
+    background-color: grey;
+}
+
+.all-notice{
+    width: 35%;
+    background-color: grey;
+
+}
+
+.recent-title{
+    color: white;
+    padding: 10px;
+    background-color:  #00316E;
+    margin-top: -25px;
+    padding-left: 30px;
+}
+
+.news-box{
+    padding: 30px;
+}
+
+.news-1{
+    margin-top: 50px;
+    width: 100%;
+    border-bottom: 2px solid black;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin-bottom: 60px;
+}
+
+.news-2{
+    margin-top: 50px;
+    width: 175%;
+    border-bottom: 2px solid black;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin-bottom: 60px;
+}
+
+.all-title{
+    color: white;
+    padding: 10px;
+    background-color: #00316E;
+    margin-top: -25px;
+    padding-left: 30px;
+}
+
+.btn-seeMore{
+    position: fixed;
+    cursor: pointer;
+    margin: auto;
+    background-color: cadetblue;
+    width: 80px;
+    height: 30px;
+    border: none;
+    margin-top: 400px;
+    padding-left: 80%;
+}
+
+.blue-box {
+    color: red;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    width: 80px;
+    position: relative;
+    right: 20px;
+    margin-top: 900px;
+  }
